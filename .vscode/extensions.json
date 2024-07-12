@@ -1,7 +1,30 @@
 {
   "recommendations": [
+    "mikael.angular-beastcode",
+    "loiane.angular-extension-pack",
+    "angular.ng-template",
+    "cyrilletuzi.angular-schematics",
+    "segerdekort.angular-cli",
+    "formulahendry.auto-close-tag",
+    "mgmcdermott.vscode-language-babel",
+    "bracketpaircolordlw.bracket-pair-color-dlw",
+    "pranaygp.vscode-css-peek",
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "donjayamanne.githistory",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens",
+    "ecmel.vscode-html-css",
+    "xabikos.javascriptsnippets",
+    "ms-vscode.vscode-typescript-next",
+    "ms-vscode.js-debug-nightly",
+    "firsttris.vscode-jest-runner",
+    "ritwickdey.liveserver",
     "nrwl.angular-console",
+    "christian-kohler.path-intellisense",
     "esbenp.prettier-vscode",
-    "firsttris.vscode-jest-runner"
+    "simontest.simontest",
+    "bradlc.vscode-tailwindcss",
+    "wayou.vscode-todo-highlight"
   ]
 }
