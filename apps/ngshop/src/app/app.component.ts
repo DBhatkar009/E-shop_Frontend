@@ -4,10 +4,12 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ProductListComponent } from './pages/product-list/product-list.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { BannerComponent } from 'ui/src/lib/banner/banner.component';
+import { OrdersComponent } from 'orders/src/lib/orders/orders.component';
 
 @Component({
   standalone: true,
-  imports: [ProductListComponent, HomePageComponent, HeaderComponent, FooterComponent, RouterModule],
+  imports: [OrdersComponent, BannerComponent, ProductListComponent, HomePageComponent, HeaderComponent, FooterComponent, RouterModule],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
