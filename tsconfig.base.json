@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@orient-dev/products": ["products/src/index.ts"],
+      "@orient-dev/ui": ["lib/ui/src/index.ts"],
+      "@orient-dev/users": ["users/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
