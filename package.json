@@ -15,6 +15,7 @@
     "@angular/router": "~18.0.0",
     "@nx/angular": "19.4.2",
     "bootstrap": "^5.3.3",
+    "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",
     "primeng": "^17.18.4",
     "rxjs": "~7.8.0",
