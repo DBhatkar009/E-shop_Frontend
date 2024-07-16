@@ -11,8 +11,7 @@ import { OrdersComponent } from 'orders/src/lib/orders/orders.component';
   standalone: true,
   imports: [OrdersComponent, BannerComponent, ProductListComponent, HomePageComponent, HeaderComponent, FooterComponent, RouterModule],
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
   title = 'ngshop';

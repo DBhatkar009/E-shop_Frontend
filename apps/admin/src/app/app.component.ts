@@ -6,8 +6,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
   standalone: true,
   imports: [DashboardComponent, RouterModule],
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
   title = 'admin';
