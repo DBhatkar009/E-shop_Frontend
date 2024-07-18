@@ -4,5 +4,9 @@ import { ShellComponent } from './shared/shell/shell.component';
 
 export const appRoutes: Route[] = [{
   path: '',
-  component: ShellComponent
+  component: ShellComponent,
+  children: [{
+    path: 'Dashboard',
+    component: DashboardComponent
+  }]
 }];
